@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20170816172715) do
   create_table "songs", force: :cascade do |t|
     t.string "title"
     t.string "album"
+    t.string "img_url"
   end
 
 end
